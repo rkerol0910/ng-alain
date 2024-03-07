@@ -15,7 +15,7 @@ steps:
   displayName: 'NpmInstall'
  
 - script: |
-    npm run build
+    npm run ng-high-memory build
   displayName: 'NpmBuild'
  
 #- task: CopyFiles@2
